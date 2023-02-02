@@ -1,0 +1,62 @@
+@media(max-width:992px) {
+    header .container .navlogo{
+        margin-left: 20px;
+    }
+header .container .navlogo .navbar ul{
+    display: none;
+}
+header .container .navlogo .icon{
+    display: block;
+}
+header .container .text {
+    margin-left: 40px;
+}
+
+section .containerthree .lobortis .lobor {
+    width: 40%;
+}
+
+  section footer .end .footer_text {
+      display: flex;
+      flex-wrap: wrap;
+  }
+
+  section footer .end .footer_text .divo {
+      width: 45%;
+  }
+
+}
+
+@media(max-width:600px){
+
+.navbar #myLinks {
+        display: none;
+    }
+
+    section .containertwo .lists ul{
+       flex-wrap: wrap;
+    }
+        section .containertwo .lists ul .cards {
+            width: 45%;
+            margin-bottom: 20px;
+            margin-left: 30px;
+        }
+                         section .containerthree .lobortis {
+                             margin-left: 6px;
+                         }
+        section .containerthree .lobortis .lobor{
+                    width: 100%;
+                    
+                }
+                                section .containerthree .mauris p{
+                                    margin-left: 0px;
+                                }
+                                section footer .end .footer_text{
+                                    flex-direction: column;
+                                    width: 90%;
+                                }
+                                                              
+                                section footer .end .footer_text .divo{
+                                    width: 100%;
+                                }
+}
